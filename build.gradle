@@ -19,8 +19,7 @@ dependencies {
 	implementation 'org.thymeleaf:thymeleaf:3.0.6.RELEASE'
 	implementation 'org.xhtmlrenderer:flying-saucer-core:9.1.6'
 	implementation 'org.xhtmlrenderer:flying-saucer-pdf-itext5:9.1.6'
-	implementation 'org.springframework:spring-context-support:5.0.1.RELEASE'
-	implementation 'org.springframework.boot:spring-boot-starter-mail'
+	implementation 'org.apache.commons:commons-email:1.5'
 }
 
 test {

@@ -23,7 +23,7 @@ public class SendEmail {
 
         //mensagem
         email.addTo(para, nome);
-        email.setFrom("eduardomachadorezende1@gmail.com", "Pdf");
+        email.setFrom("<SEUEMAIL>", "Pdf");
         email.setSubject("Segue o anexo do pdf");
         email.setMsg("Seu pdf esta pronto!");
         email.attach(attachment);
